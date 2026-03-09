@@ -57,8 +57,9 @@ const Projects = () => {
                                             <a href={project.githubUrl} className="text-gray-400 hover:text-accent transition-colors duration-300">
                                                 <FiGithub size={22} />
                                             </a>
-
-
+                                            <a href={project.demoUrl} className="text-gray-400 hover:text-accent transition-colors duration-300">
+                                                <FiExternalLink size={22} />
+                                            </a>
                                         </div>
                                     </div>
 
