@@ -15,6 +15,8 @@ const Projects = () => {
             title: "Fine-Grained Cyberbullying Detection",
             description: "Machine learning system for detecting cyberbullying severity in online conversations.",
             techStack: ["Python", "DistilBERT", "Flask", "SQLite"],
+            githubUrl: "https://github.com/Akhilesh6803-AM/cyberbullying-detection",
+            demoUrl: "https://cyberbullying-detection-demo.vercel.app/"
         },
     ];
 
