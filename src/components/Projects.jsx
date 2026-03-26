@@ -8,15 +8,13 @@ const Projects = () => {
             title: "Personal Portfolio Website",
             description: "A modern responsive developer portfolio built with React and Tailwind CSS.",
             techStack: ["React", "Tailwind CSS"],
-            githubUrl: "https://akhilesham.vercel.app/",
-            demoUrl: "#"
+            githubUrl: "https://github.com/Akhilesh6803-AM/portfolio-ak",
+            demoUrl: "https://akhilesham.vercel.app/"
         },
         {
             title: "Fine-Grained Cyberbullying Detection",
             description: "Machine learning system for detecting cyberbullying severity in online conversations.",
             techStack: ["Python", "DistilBERT", "Flask", "SQLite"],
-            githubUrl: "#",
-            demoUrl: "#"
         },
     ];
 
