@@ -8,7 +8,7 @@ const Projects = () => {
             title: "Personal Portfolio Website",
             description: "A modern responsive developer portfolio built with React and Tailwind CSS.",
             techStack: ["React", "Tailwind CSS"],
-            githubUrl: "https://github.com/Akhilesh6803-AM/portfolio-ak"
+            githubUrl: "https://github.com/Akhilesh6803-AM/portfolio-ak",
             demoUrl: "https://akhilesham.vercel.app/"
         },
         {
