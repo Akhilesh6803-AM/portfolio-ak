@@ -55,7 +55,7 @@ const About = () => {
                         <p className="text-lg leading-relaxed mb-6">
                             A passionate Computer Science Engineering student and Software Developer based in Bengaluru.
                             I focus on building modern web applications and solving real-world problems using technology.
-                            Currently serving as CTO & Co-Founder at Vayu Aarambh Innovations.
+                            Currently working on technology innovation and leading the R&D and technical team at Vayu Aarambh Innovations.
                         </p>
 
                         <div className="bg-[#0f172a] p-4 rounded-lg border border-[#ffffff1a]">
