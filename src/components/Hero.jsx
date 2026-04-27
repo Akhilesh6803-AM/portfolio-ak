@@ -34,11 +34,11 @@ const Hero = () => {
                             />
 
                             {/* Image container inner mask */}
-                            <div className="absolute inset-1.5 md:inset-2 rounded-full overflow-hidden border-4 border-[#0f172a] bg-[#1e293b] z-10">
+                            <div className="absolute inset-1.5 md:inset-2 rounded-full overflow-hidden border border-white/20 bg-white/5 backdrop-blur-xl z-10 shadow-[0_0_60px_rgba(59,130,246,0.2)]">
                                 <img
                                     src="/akhilesh.jpg"
                                     alt="Akhilesh A M"
-                                    className="object-cover w-full h-full hover:scale-110 transition-transform duration-500"
+                                    className="object-cover w-full h-full hover:scale-110 transition-transform duration-500 opacity-90"
                                 />
                             </div>
                         </motion.div>
@@ -50,7 +50,7 @@ const Hero = () => {
                         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                         className="md:w-1/2 text-center md:text-left order-1 md:order-2"
                     >
-                        <h2 className="text-gray-400 font-medium text-xl mb-2 tracking-wide">
+                        <h2 className="text-slate-400 font-medium text-xl mb-2 tracking-wide">
                             Hello, it's me
                         </h2>
                         <motion.h1
@@ -65,10 +65,10 @@ const Hero = () => {
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
-                            className="text-2xl md:text-3xl font-semibold text-gray-300 mb-8"
+                            className="text-2xl md:text-3xl font-semibold text-slate-300 mb-8"
                         >
                             And I'm a{' '}
-                            <span className="text-accent">
+                            <span className="text-gradient">
                                 <TypeAnimation
                                     sequence={[
                                         'Software Developer',
@@ -84,16 +84,21 @@ const Hero = () => {
                                 />
                             </span>
                         </motion.div>
-                        <p className="text-gray-300 text-lg md:text-xl mb-8 max-w-lg mx-auto md:mx-0">
-                            I build modern web applications and scalable solutions.
-                        </p>
+                        <div className="text-slate-300 mb-8 max-w-lg mx-auto md:mx-0 space-y-4">
+                            <p className="text-lg md:text-xl font-medium text-white leading-snug">
+                                Building Scalable, Intelligent Applications.
+                            </p>
+                            <p className="text-base md:text-lg leading-relaxed">
+                                I specialize in crafting seamless web experiences and high-performance software. My goal is to create impactful solutions that are <span className="text-blue-400 font-medium">driven by code and powered by AI</span>.
+                            </p>
+                        </div>
 
-                        <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
+                        <div className="flex flex-col sm:flex-row items-center gap-6 justify-center md:justify-start mt-8">
                             <motion.a
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 href="#projects"
-                                className="px-8 py-3 bg-accent text-white font-medium rounded-full shadow-[0_0_15px_rgba(59,130,246,0.4)] hover:shadow-[0_0_25px_rgba(59,130,246,0.6)] transition-all duration-300 w-full sm:w-auto text-center"
+                                className="px-8 py-3 bg-white/5 backdrop-blur-md border border-white/20 text-white font-medium rounded-full shadow-[0_4px_20px_rgba(0,0,0,0.2)] hover:bg-white/10 hover:border-white/30 transition-all duration-300 w-full sm:w-auto text-center"
                             >
                                 View Projects
                             </motion.a>
@@ -102,7 +107,7 @@ const Hero = () => {
                                 whileTap={{ scale: 0.95 }}
                                 href="/AkhileshAM Resume.pdf"
                                 download
-                                className="px-8 py-3 bg-transparent border-2 border-accent text-accent font-medium rounded-full hover:bg-accent hover:text-white transition-all duration-300 w-full sm:w-auto text-center"
+                                className="px-8 py-3 bg-blue-500/20 backdrop-blur-md border border-blue-500/30 text-white font-medium rounded-full hover:bg-blue-500/40 hover:border-blue-500/50 shadow-[0_4px_20px_rgba(59,130,246,0.3)] transition-all duration-300 w-full sm:w-auto text-center"
                             >
                                 Download Resume
                             </motion.a>
