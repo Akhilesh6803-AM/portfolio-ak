@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
 
 const links = [
-    { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
